@@ -1,0 +1,98 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Bleu ciel léger pour le fond */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #00cfff); /* Dégradé de bleu à bleu ciel */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57; /* Jaune vif pour l'effet hover */
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #007bff; /* Bleu pour les titres de section */
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+section#courses ul,
+section#resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#courses li,
+section#resources li {
+    background-color: #ffdd57; /* Jaune pour les éléments de la liste */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+section#courses li:hover,
+section#resources li:hover {
+    background-color: #ffe680; /* Jaune plus clair au survol */
+}
+
+footer {
+    background-color: #ff0000; /* Bleu pour le pied de page */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #007bff; /* Bleu pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* Bleu plus foncé pour les liens au survol */
+}
